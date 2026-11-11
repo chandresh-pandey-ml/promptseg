@@ -54,17 +54,9 @@ pip install -r requirements.txt
 
 ### 4. Model Checkpoints
 
-Due to GitHub's file size restrictions, the models are distributed as follows:
+The joint LoRA adapter ships with the repository under `data/joint_lora_clipseg`. The fully fine-tuned model (~600 MB) is hosted externally on [Google Drive](https://drive.google.com/drive/folders/1GxA8aFIvqrj8HrWfoGDI4aw_JLCZ8i2M?usp=sharing).
 
-| Model Version | Location | Size |
-| :--- | :--- | :--- |
-| **Joint LoRA Adapter** | `data/joint_lora_clipseg` | ~4 MB |
-| **Full Fine-Tuned Model** | [Download from Google Drive](https://drive.google.com/drive/folders/18H6P17yPCs1P3YK2LGWwBdtp0HQnJ-ng?usp=sharing) | ~600 MB |
-
-### How to use the Full Fine-Tuned Model:
-1. Download the `fine_tuned_clipseg_cracks` folder from the link above.
-2. Place the folder inside the `data/` directory of this repository.
-3. Ensure the structure looks like this: `data/fine_tuned_clipseg_cracks`.
+To use it, download the `fine_tuned_clipseg_cracks` folder and place it inside the repository's `data/` directory, so the final structure is `data/fine_tuned_clipseg_cracks`.
 
 ### 5. Quick Verification
 Verify the installation by running a zero-shot evaluation on the base CLIPSeg model:

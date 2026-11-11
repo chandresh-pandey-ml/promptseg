@@ -1,0 +1,12 @@
+torch>=2.0.0
+torchvision
+transformers
+peft
+numpy
+pandas
+opencv-python
+matplotlib
+seaborn
+tqdm
+pillow
+scikit-learn

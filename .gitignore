@@ -1,0 +1,37 @@
+# Model weights and checkpoints (large binaries are not versioned)
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+data/fine_tuned_clipseg_cracks/
+
+# Datasets (downloaded separately, not tracked)
+cracks/
+cracks_mask/
+Drywall-Join-Detect/
+drywall_join_detect_mask/
+
+# Experiment logs
+logfiles/
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
